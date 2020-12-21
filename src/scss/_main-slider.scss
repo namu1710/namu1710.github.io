@@ -1,0 +1,294 @@
+.main-slider {
+    border-bottom: 1px solid rgba(196, 196, 196, 0.1);
+    @media screen and(max-width:600px){
+        border-bottom: none;
+    }
+}
+.slider {
+    width: 100%;
+    box-sizing: initial;
+    counter-reset: number;
+    padding-bottom: 120px;
+}
+.slick-list {
+    overflow: visible !important;
+}
+.slider-date {
+    font-family: 'Gotham Pro';
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.06em;
+    color: #e0be65;
+    margin-top: 110px;
+    @media screen and(max-width: 1025px) {
+        margin-top: 85px;
+    }
+    @media screen and(max-width:600px){
+        display: none;
+    }
+}
+h1 {
+    position: absolute;
+    font-family: 'EBGaramond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    color: #ffffff;
+    white-space: nowrap;
+    z-index: 1600;
+    top: 100px;
+    left: 0;
+    @media screen and(max-width:1025px) {
+        max-width: 580px;
+        display: inline-block;
+        white-space: normal;
+        top: 60px;
+    }
+    @media screen and(max-width:600px){
+        top: 45%;
+        text-align: center;
+        font-size: 40px;
+    }
+    @media screen and(max-width:500px){
+        top: 35%;
+    }
+    @media screen and(max-width:400px){
+        top: 25%;
+    }
+}
+.slider-btn {
+    font-family: 'Gotham Pro';
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.06em;
+    color: #e0be65;
+    border: 1px solid #e0be65;
+    box-sizing: border-box;
+    width: 264px;
+    text-align: center;
+    padding: 20px 0 21px 0;
+    margin-top: 140px;
+    @media screen and(max-width:1025px) {
+        margin-top: 200px;
+        margin-right: 44px;
+        max-width: 220px;
+    }
+    @media screen and(max-width:600px){
+        margin-top: 70%;
+        max-width: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -138px;
+        margin-right: 0;
+    }
+    @media screen and(max-width:540px){
+        margin-top: 85%;
+    }
+    @media screen and(max-width:360px){
+        width: 100%;
+        margin-top: 95%;
+        left: 0;
+        margin-left: 0;
+    }
+}
+.slider-btn:hover {
+    background-color: #e0be65;
+    color: #222427;
+    border: 1px solid #222427;
+}
+.slider-item {
+    display: flex !important;
+    justify-content: space-between;
+    outline: none;
+    @media screen and(max-width:600px){
+        width: 100%;
+    }
+}
+.slider-main-content {
+    width: 100%;
+    display: block;
+}
+.slider-main-img {
+    position: relative;
+    height: 434px;
+    z-index: 100;
+    width: 100%;
+    @media screen and(max-width:600px){
+        position: unset;
+    }
+}
+.slider-main-img img {
+    position: absolute;
+    right: 0;
+    margin-right: -82px;
+    margin-top: -82px;
+    background-color: #222427;
+    @media screen and(max-width:1200px) {
+        max-width: 99%;
+        height: 100%;
+        margin-top: -80px;
+    }
+    @media screen and(max-width:740px) {
+        max-width: 125%;
+        
+    }
+    @media screen and(max-width:600px){
+        left: 0;
+        margin-left: -32px;
+        height: auto;
+    }
+}
+
+.slider-small-img {
+    position: relative;
+    @media screen and(max-width:1025px) {
+        display: none;
+    }
+}
+.slider-small-img img {
+    position: absolute;
+    background-color: #222427;
+    right: 0;
+    margin-top: -270px;
+    z-index: 100;
+}
+.slider-text{
+    @media screen and(max-width:600px){
+        width: 4000%;
+    }
+}
+.slider-p {
+    position: absolute;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    line-height: 150%;
+    color: #a4a4a4;
+    max-width: 360px;
+    right: 27%;
+    bottom: -25%;
+    @media screen and(max-width: 1130px) {
+        max-width: 300px;
+    }
+    @media screen and(max-width: 1025px) {
+        max-width: 55%;
+        right: 0;
+        bottom: -10%;
+    }
+    @media screen and(max-width: 850px) {
+        max-width: 48%;
+        right: 0;
+    }
+    @media screen and(max-width:600px){
+        display: none;
+    }
+}
+.slick-dots {
+    display: none !important;
+}
+.slider-count {
+    font-family: 'Gotham Pro';
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #c4c4c4;
+    text-align: center;
+    margin-top: 96px;
+    @media screen and(max-width:600px){
+        margin-top: 460px;
+    }
+    @media screen and(max-width:540px){
+        margin-top: 500px;
+    }
+    @media screen and(max-width:400px){
+        margin-top: 400px;
+    }
+}
+.slider-count::before {
+    counter-increment: number;
+    content: '0' counter(number);
+}
+.slick-arrow {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.slick-prev {
+    background-image: url('../img/slick-prev.png');
+    width: 34px;
+    height: 15px;
+    position: absolute;
+    top: 406px;
+    left: 0;
+    z-index: 600;
+    @media screen and(max-width:1025px) {
+        top: 440px;
+    }
+    @media screen and(max-width:600px) {
+        top: 460px;
+    }
+    @media screen and(max-width:540px) {
+        top: 500px;
+    }
+    @media screen and(max-width:400px){
+        top: 400px;
+    }
+}
+.slick-prev:hover {
+    background-image: url('../img/slick-prev-hover.png');
+}
+.slick-prev:focus {
+    background-image: url('../img/slick-prev-hover.png');
+}
+.slick-next {
+    background-image: url('../img/slick-next.png');
+    width: 34px;
+    height: 15px;
+    position: absolute;
+    top: 406px;
+    left: 230px;
+    z-index: 600;
+    @media screen and(max-width:1025px) {
+        top: 440px;
+    }
+    @media screen and(max-width:600px){
+        right: 0 ;
+        left: auto;
+        top: 460px;
+
+    }
+    @media screen and(max-width:540px){
+        top: 500px;
+
+    }
+    @media screen and(max-width:400px){
+        top: 400px;
+    }
+}
+.slick-next:hover {
+    background-image: url('../img/slick-next-hover.png');
+}
+.slick-next:focus {
+    background-image: url('../img/slick-next-hover.png');
+}
+.slick-dotted {
+    display: flex;
+}
+.main-slider .vertical-tab {
+    transform: rotate(-270deg);
+    position: absolute;
+    top: 242px;
+    right: 96%;
+    white-space: nowrap;
+}
+.main-slider .vertical-tab a {
+    font-size: 34px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-family: 'Gotham Pro';
+    color: #555555;
+    opacity: 0.5;
+    outline: none;
+}
