@@ -1,2 +1,1 @@
-To run development mode type 'gulp'
-To run image compression 'gulp image'
+namu1710.github.io
