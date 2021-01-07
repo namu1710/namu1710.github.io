@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+            />
+        <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    </head>
+    <body>
+        <div class="layout">
+            <header class="header">
+                <div class="container">
+                    <div class="burger-menu"></div>
+                    <div class="mobile-list">
+                        <ul>
+                            <li><a href="#">ВIДВIДУВАЧАМ</a></li>
+                            <li><a href="#">КАЛЕНДАР ПОДIЙ</a></li>
+                            <li><a href="#">ГАЛЕРЕЯ</a></li>
+                            <li><a href="#">ПРОГРАМИ</a></li>
+                            <li><a href="#">ПРО МУЗЕЙ</a></li>
+                            <li><a href="#">БЛОГ</a></li>
+                            <li><a href="#">МАГАЗИН</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="logo">
+                        <img src="img/logo.png" alt="" class="logo-icon">
+                        <span>namu</span>
+                    </div>
+                    <nav class="header-nav">
+                        <ul class="header-list">
+                            <li><a href="#">ВIДВIДУВАЧАМ</a></li>
+                            <li><a href="#">КАЛЕНДАР ПОДIЙ</a></li>
+                            <li><a href="#">ГАЛЕРЕЯ</a></li>
+                            <li><a href="#">ПРОГРАМИ</a></li>
+                            <li><a href="#">ПРО МУЗЕЙ</a></li>
+                            <li><a href="#">БЛОГ</a></li>
+                            <li><a href="#">МАГАЗИН</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="main-slider">
+                <div class="container">
+                    <div class="slider">
+                        <div class="slider-item">
+                            <div class="slider-text">
+                                <div class="slider-date">
+                                    <p>25 ЛИПНЯ — 25 СЕРПНЯ</p>
+                                </div>
+                                <h1>Ернст Барлах – Кете Колльвiц</h1>
+                                <div class="slider-btn">КУПИТИ КВИТОК</div>
+                                <div class="slider-count"> / 04</div>
+                            </div>
+                            <div class="vertical-tab">
+                                <a href="#">ВИСТАВКА</a></div>
+                            <div class="slider-main-content">
+                                <div class="slider-main-img">
+                                    <img src="img/main-slider-img.png" alt="">
+                                </div>
+                                <div class="slider-small-img">
+                                    <img src="img/slider-small-img.png" alt="">
+                                </div>
+                                <div class="slider-p">
+                                    <p>Виставка містить близько 160 художніх
+                                        творів,
+                                        в тому числі величезні монументальні
+                                        фігури,
+                                        дивовижні скульптури, та графічні роботи
+                                        Ернста Барлаха і Кете Колльвіц.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="slider-text">
+                                <div class="slider-date">
+                                    <p>25 ЛИПНЯ — 25 СЕРПНЯ</p>
+                                </div>
+                                <h1>Ернст Барлах – Кете Колльвiц</h1>
+                                <div class="slider-btn">КУПИТИ КВИТОК</div>
+                                <div class="slider-count"> / 04</div>
+                                <div class="vertical-tab">
+                                    <a href="#">ВИСТАВКА</a></div>
+                            </div>
+                            <div class="slider-main-content">
+                                <div class="slider-main-img">
+                                    <img src="img/main-slider-img.png" alt="">
+                                </div>
+                                <div class="slider-small-img">
+                                    <img src="img/slider-small-img.png" alt="">
+                                </div>
+                                <div class="slider-p">
+                                    <p>Виставка містить близько 160 художніх
+                                        творів,
+                                        в тому числі величезні монументальні
+                                        фігури,
+                                        дивовижні скульптури, та графічні роботи
+                                        Ернста Барлаха і Кете Колльвіц.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main class="main-content">
+                <div class="main-content-slider">
+                    <div class="container">
+                        <div class="slider">
+                            <div class="slider-item">
+                                <div class="slider-main-content">
+                                    <h2>Найближчi подiї</h2>
+                                    <div class="slider-img">
+                                        <img src="img/slider-item-1.png" alt="">
+                                    </div>
+                                    <div class="slider-count"> / 04</div>
+                                </div>
+                                <div class="slider-text">
+                                    <div class="event">ВИСТАВКА</div>
+                                    <div class="slider-date">25 ЛИПНЯ — 25
+                                        СЕРПНЯ</div>
+                                    <h3>Юрій Єгоров. На яскравому сонці</h3>
+                                    <div class="event-btn">КАЛЕНДАР ПОДIЙ</div>
+                                </div>
+                                <div class="vertical-tab">
+                                    <a href="#">Найближчi подiї</a></div>
+                            </div>
+                            <div class="slider-item"></div>
+                            <div class="slider-item"></div>
+                            <div class="slider-item"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-collection">
+                    <div class="container">
+                        <h2>Колекцiя музею</h2>
+                        <div class="collection-item">
+                            <div class="collection-info">
+                                <ul>
+                                    <li>Невідомий художник:</li>
+                                    <li>Козак-бандурист</li>
+                                </ul>
+                            </div>
+                            <div class="collection-content">
+                                <div class="collection-text">
+                                    <h3>Стародавнє
+                                        мистецтво</h3>
+                                    <div class="event-btn">ДЕТАЛЬНIШЕ</div>
+                                </div>
+                                <div class="collection-img">
+                                    <img src="img/collection-item-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-item item-2">
+                            <div class="collection-info">
+                                <ul>
+                                    <li>Анатолій Петрицький:</li>
+                                    <li>IНВАЛIДИ</li>
+                                </ul>
+                            </div>
+                            <div class="collection-content">
+                                <div class="vertical-tab">
+                                    <a href="#">ГАЛЕРЕЯ</a></div>
+                                <div class="collection-img">
+                                    <img src="img/collection-item-2.png" alt="">
+                                </div>
+                                <div class="collection-text">
+                                    <h3>Мистецтво ХІХ — ХХ століття
+                                    </h3>
+                                    <div class="event-btn">ДЕТАЛЬНIШЕ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-item">
+                            <div class="collection-info">
+                                <ul>
+                                    <li>Андрій Коцка:</li>
+                                    <li>Жінка з Колочави</li>
+                                </ul>
+                            </div>
+                            <div class="collection-content">
+                                <div class="collection-text">
+                                    <h3>Мистецтво ХХ — ХХI століття
+                                    </h3>
+                                    <div class="event-btn">ДЕТАЛЬНIШЕ</div>
+                                </div>
+                                <div class="collection-img">
+                                    <img src="img/collection-item-3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-support">
+                    <div class="container">
+                        <h2>Стань Левом музею</h2>
+                        <div class="support-content">
+                            <div class="support-img">
+                                <img src="img/lion head.png" alt="">
+                            </div>
+                            <div class="support-text">
+                                <p>Люди якi небайдужі до музею, об’єднуються аби
+                                    допомогти музею у його мiсiї: зберегти
+                                    унікальну колекцію, популяризувати
+                                    українське мистецтво у світі та сприяти
+                                    духовному й інтелектуальному розвитку
+                                    українців.</p>
+                                <p class="columns">З початку 2018 наші вірні
+                                    Друзі перетворюються на Левів музею, аби не
+                                    лише допомагати музею, але й палко та
+                                    хоробро захищати інтереси українського
+                                    мистецтва. А це означає знати його історію,
+                                    комунікувати зі своїм оточенням важливі для
+                                    для нашого спільного розвитку сенси та
+                                    фондувати Національний художній музей на
+                                    шляху до рішучих змін. у вересні 2013 р. з
+                                    ініціативи громадськості з’явилось «Дружнє
+                                    коло», мета якого: об'єднати людей, для яких
+                                    справа честі й водночас задоволення – бути
+                                    причетними до життя музею.
+                                </p>
+                                <div class="slider-btn">ЗРОБИТИ ВНЕСОК</div>
+                            </div>
+                            <div class="vertical-tab">пiдтримай музей</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="main-content-blog">
+                    <div class="container">
+                        <h2>Блог</h2>
+                        <div class="blog-content">
+                            <div class="blog-text">
+                                <div id="item-1" class="blog-text-item">
+                                    <div class="blog-item-number">01</div>
+                                    <h4>До 140-річчя Олександра Мурашка</h4>
+                                    <div class="blog-item-date">15 Серпня 2019</div>
+                                </div>
+                                <div id="item-2" class="blog-text-item item-2">
+                                    <div class="blog-item-number">02</div>
+                                    <h4>Про мистецтво з любов’ю й ненавистю</h4>
+                                    <div class="blog-item-date">15 Серпня 2019</div>
+                                </div>
+                                <div id="item-3" class="blog-text-item">
+                                    <div class="blog-item-number">03</div>
+                                    <h4>Нові надходження до колекції НХМУ:
+                                        «Богоматір з Дитям і похвалою»</h4>
+                                    <div class="blog-item-date">15 Серпня 2019</div>
+                                </div>
+                                <div id="item-4" class="blog-text-item">
+                                    <div class="blog-item-number">04</div>
+                                    <h4>Лада Міляєва. Спогади про Бориса Возницького.</h4>
+                                    <div class="blog-item-date">15 Серпня 2019</div>
+                                </div>
+                            </div>
+                            <div class="blog-image">
+                                <div id="img-item-1" class="blog-image-item">
+                                    <div class="blog-item-img">
+                                        <img src="img/blog-image-item-1.png"
+                                            alt="">
+                                    </div>
+                                    <footer class="blog-image-footer">
+                                        <div class="blog-item-number">01</div>
+                                        <div class="event-btn">ДЕТАЛЬНIШЕ</div>
+                                    </footer>
+                                </div>
+                                <div id="img-item-2" class="blog-image-item">
+                                    <div class="blog-item-img">
+                                        <img src="img/blog-image-item-1.png"
+                                            alt="">
+                                    </div>
+                                    <footer class="blog-image-footer">
+                                        <div class="blog-item-number">02</div>
+                                        <div class="event-btn">ДЕТАЛЬНIШЕ</div>
+                                    </footer>
+                                </div>
+                                <div id="img-item-3" class="blog-image-item">
+                                    <div class="blog-item-img">
+                                        <img src="img/blog-image-item-1.png"
+                                            alt="">
+                                    </div>
+                                    <footer class="blog-image-footer">
+                                        <div class="blog-item-number">03</div>
+                                        <div class="event-btn">ДЕТАЛЬНIШЕ</div>
+                                    </footer>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-btn">УСI СТАТТI</div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="">
+                            <span>namu</span>
+                        </div>
+                    </div>
+                    <nav class="footer-nav">
+                        <div class="footer-list">
+                            <ul>
+                                <li><a>ВIДВIДУВАЧАМ</a></li>
+                                <li><a>КАЛЕНДАР ПОДIЙ</a></li>
+                                <li><a>ГАЛЕРЕЯ</a></li>
+                            </ul>
+                            <ul>
+                                <li><a>ПРОГРАМИ</a></li>
+                                <li><a>ПРО МУЗЕЙ</a></li>
+                                <li><a>Блог</a></li>
+                            </ul>
+                            <ul>
+                                <li><a>Магазин</a></li>
+                                <li><a>ВИДАННЯ</a></li>
+                                <li><a>Партнери</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="footer-info">
+                        <div class="contacts">
+                            <h5>КОНТАКТИ</h5>
+                            <p>Київ, вул. М. Грушевського, 6</p>
+                            <p>тел. 278-13-57, 278-74-54</p>
+                            <p>факс +38 (044) 278-74-54</p>
+                            <p>e-mail: info@namu.kiev.ua</p>
+                        </div>
+                        <div class="timetable">
+                            <h5>Розклад роботи</h5>
+                            <table>
+                                <tr>
+                                    <td>Пн, Вт</td>
+                                    <td>Вихiднi</td>
+                                </tr>
+                                <tr>
+                                    <td>Ср, Чт, Нд</td>
+                                    <td>10:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Пт</td>
+                                    <td>12:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Сб</td>
+                                    <td>11:00 - 19:00</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="visited">
+                            <h5>ЗАвiтай до музею</h5>
+                            <div class="slider-btn">КУПИТИ КВИТОК</div>
+                        </div>
+                    </div>
+                    <div class="footer-icons">
+                        <div class="footer-social">
+                            <div class="youtube">
+                                <img src="img/footer-youtube.png" alt="">
+                            </div>
+                            <div class="facebook">
+                                <img src="img/footer-facebook.png" alt="">
+                            </div>
+                            <div class="twitter">
+                                <img src="img/footer-twitter.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-p">
+                            <p>© Національний Художній Музей України, 1995-2019.
+                                Всі права захищені.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+        <script type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="./public/js/app.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
